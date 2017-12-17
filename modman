@@ -1,0 +1,6 @@
+src/app/code/community/Finalwishlist/SharedWishlist     app/code/community/Finalwishlist/SharedWishlist
+src/app/design/frontend/base/default/layout/finalwishlist_sharedwishlist.xml  app/design/frontend/base/default/layout/finalwishlist_sharedwishlist.xml
+src/app/design/frontend/base/default/template/finalwishlist/modalcontent.phtml  app/design/frontend/base/default/template/finalwishlist/modalcontent.phtml
+src/js/finalwishlist/*  js/finalwishlist/
+src/skin/frontend/base/default/css/finalwishlist/modal-style.css  skin/frontend/base/default/css/finalwishlist/modal-style.css
+src/app/etc/modules/*    app/etc/modules/

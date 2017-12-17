@@ -1,0 +1,22 @@
+<?php if(Mage::getSingleton('customer/session')->isLoggedIn()) :?>
+<div id="allow-finalwishlist" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="button close" data-dismiss="modal"><span>x</span></button>
+        <h4 class="modal-title">Finalwishlist</h4>
+      </div>
+      <div class="modal-body">
+        <p><?php echo Mage::getStoreConfig('general/store_information/name'); ?>  wants to send your wishlist item to FinalWishlist.com <a href="#" data-toggle="tooltip" data-placement="top" title="FinalWishlist is a new service that gather all wishlists you use in your favorite online stores in unique page so you can share it with your friends on your favorite social">What's is it?</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <script type="text/javascript">
+    var isLoggedIn = true;
+  </script>
+<?php endif; ?>

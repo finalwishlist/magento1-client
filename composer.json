@@ -1,0 +1,13 @@
+{
+    "name": "finalwishlist/finalwishlist-magento1",
+    "license": "MIT",
+    "type": "magento-module",
+    "description": "This is a client module to use a shared wishlist that use API to track all wishlist of ecommerce a customer use",
+    "require": {
+        "php": ">=5.4.0",
+        "magento-hackathon/magento-composer-installer": "*" 
+    },
+    "authors": [
+        { "name": "Marco Greco", "email": "marcogreco.jog@gmail.com" }
+    ]
+}
